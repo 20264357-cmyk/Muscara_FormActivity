@@ -1,0 +1,80 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8">  
+
+
+    <title>Muscara- My HTML Form</title> 
+</head> 
+<body> 
+
+    
+    <h1>HTML Form</h1> 
+    <form action="#" method="post">
+        
+        
+        <fieldset> 
+            <legend>Contact Details</legend> 
+            <p> 
+                <label for="fullname">Full Name:</label> 
+                <input type="text" id="fullname" name="fullname"> 
+            </p> 
+            <p> 
+                <label for="myEmailaddress">Email Address:</label> 
+                <input type="email" id="myEmailaddress" name="address"> 
+            </p> 
+        </fieldset> 
+
+
+        <fieldset> 
+            <legend>Gender</legend> 
+            <p> 
+                <input type="radio" id="male" name="gender" value="Male"> 
+                <label for="male">Male</label> 
+                <br> 
+                <input type="radio" id="female" name="gender" value="Female"> 
+                <label for="female">Female</label> 
+                <br> 
+                <input type="radio" id="other" name="gender" value="Other"> 
+                <label for="other">Other</label> 
+            </p> 
+        </fieldset> 
+
+
+        <fieldset> 
+            <legend>Personal Hobbies</legend> 
+            <p> 
+                <input type="checkbox" id="Training" name="Training" value="Training"> 
+                <label for="Training">Training</label> 
+                <br> 
+                <input type="checkbox" id="traveling" name="traveling" value="Traveling"> 
+                <label for="traveling">Traveling</label> 
+                <br> 
+                <input type="checkbox" id="sports" name="sports" value="Sports"> 
+                <label for="sports">Sports</label> 
+                <br> 
+                <input type="checkbox" id="gaming" name="gaming" value="Gaming"> 
+                <label for="gaming">Gaming</label> 
+                <br> 
+                <input type="checkbox" id="combative" name="combative" value="Combative Sports"> 
+                <label for="combative">Combative Sports</label> 
+            </p> 
+        </fieldset> 
+
+
+        <fieldset> 
+            <legend>Feedback</legend> 
+            <p> 
+                <label for="notes">Comments:</label> 
+                <br> 
+                <textarea id="notes" name="comments" rows="5" cols="35"></textarea> 
+            </p> 
+        </fieldset> 
+
+
+        <p> 
+            <button type="submit">Submit Form Data</button> 
+        </p> 
+    </form> 
+</body> 
+</html>
